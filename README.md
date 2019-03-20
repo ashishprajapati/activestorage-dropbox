@@ -3,6 +3,7 @@
 Wraps the [Dropbox](https://www.dropbox.com/) Storage Service as an Active Storage service
 
 [![Version](https://img.shields.io/gem/v/activestorage_dropbox.svg?style=flat-square)](https://rubygems.org/gems/activestorage_dropbox)
+[![Coverage Status](https://coveralls.io/repos/github/ashishprajapati/activestorage_dropbox/badge.svg?branch=master)](https://coveralls.io/github/ashishprajapati/activestorage_dropbox?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/629942b6297330c3f52f/maintainability)](https://codeclimate.com/github/ashishprajapati/activestorage_dropbox/maintainability)
 
 ## Installation
