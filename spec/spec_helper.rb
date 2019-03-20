@@ -1,6 +1,8 @@
 require 'coveralls'
 Coveralls.wear!
+
 require "bundler/setup"
+require 'rails/all'
 require "active_storage/service/dropbox_service"
 
 RSpec.configure do |config|
