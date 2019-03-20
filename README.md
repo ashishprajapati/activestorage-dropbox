@@ -1,6 +1,7 @@
-# Activestorage::Service::DropboxService
+# Activestorage::Service::DropboxService - Official Gem
 
-Wraps the [Dropbox](https://www.dropbox.com/) Storage Service as an Active Storage service
+Wraps the [Dropbox](https://www.dropbox.com/) Storage Service as an Active Storage service \
+Reference: https://groups.google.com/forum/?fromgroups#!topic/rubyonrails-core/rOj4y3hx0Gc
 
 [![Version](https://img.shields.io/gem/v/activestorage_dropbox.svg?style=flat-square)](https://rubygems.org/gems/activestorage_dropbox)
 [![Build Status](https://travis-ci.org/ashishprajapati/activestorage_dropbox.svg?branch=master)](https://travis-ci.org/ashishprajapati/activestorage_dropbox)
