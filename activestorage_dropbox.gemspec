@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ashish Prajapati"]
   spec.email         = ["mail@ashishprajapati.com"]
 
-  spec.summary       = 'Wraps the Dropbox Storage as an Active Storage service'
-  spec.description   = 'Wraps the Dropbox Storage as an Active Storage service. https://www.dropbox.com'
+  spec.summary       = 'Dropbox Support in Active Storage - Official, Wraps the Dropbox Storage as an Active Storage service.'
+  spec.description   = 'Wraps the Dropbox Storage as an Active Storage service. Active Storage Dropbox Official Gem (activestorage dropbox support) - https://www.dropbox.com'
   spec.homepage      = "https://github.com/ashishprajapati/activestorage_dropbox"
   spec.license       = "MIT"
 
