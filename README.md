@@ -6,7 +6,6 @@ Rails ActiveStorage adapter for Dropbox. Wraps the [Dropbox](https://www.dropbox
 [![Version](https://img.shields.io/gem/v/activestorage_dropbox.svg?style=flat-square)](https://rubygems.org/gems/activestorage_dropbox)
 [![Build Status](https://travis-ci.org/ashishprajapati/activestorage_dropbox.svg?branch=master)](https://travis-ci.org/ashishprajapati/activestorage_dropbox)
 [![Maintainability](https://api.codeclimate.com/v1/badges/629942b6297330c3f52f/maintainability)](https://codeclimate.com/github/ashishprajapati/activestorage_dropbox/maintainability)
-[![Gem Version](https://badge.fury.io/rb/activestorage_dropbox.svg)](https://badge.fury.io/rb/activestorage_dropbox)
 
 Reference: https://groups.google.com/forum/?fromgroups#!topic/rubyonrails-core/rOj4y3hx0Gc
 
