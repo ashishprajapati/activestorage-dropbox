@@ -1,6 +1,6 @@
 # Activestorage::Service::DropboxService - Official Gem
 
-Wraps the [Dropbox](https://www.dropbox.com/) Storage Service as an Active Storage service
+Rails ActiveStorage adapter for Dropbox. Wraps the [Dropbox](https://www.dropbox.com/) Storage Service as an Active Storage service. 
 
 [![Version](https://img.shields.io/gem/v/activestorage_dropbox.svg?style=flat-square)](https://rubygems.org/gems/activestorage_dropbox)
 [![Build Status](https://travis-ci.org/ashishprajapati/activestorage_dropbox.svg?branch=master)](https://travis-ci.org/ashishprajapati/activestorage_dropbox)
@@ -26,7 +26,27 @@ Or install it yourself as:
     $ gem install activestorage_dropbox
 
 ## Usage
+Declare an Dropbox service in config/storage.yml
 
+```
+dropbox:
+  service: Dropbox
+  access_token: ""
+```
+
+To use the Dropbox service in development, you add the following to config/environments/production.rb:
+
+```
+config.active_storage.service = :dropbox
+```
+
+To use the Dropbox service in production, you add the following to config/environments/production.rb:
+
+```
+config.active_storage.service = :dropbox
+```
+
+You can read more about Active Storage in the [Active Storage Overview](https://edgeguides.rubyonrails.org/active_storage_overview.html) guide.
 
 ## Development
 
