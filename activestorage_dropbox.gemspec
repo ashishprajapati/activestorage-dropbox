@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ashish Prajapati"]
   spec.email         = ["mail@ashishprajapati.com"]
 
-  spec.summary       = 'Wraps the Dropbox Storage as an Active Storage service'
-  spec.description   = 'Wraps the Dropbox Storage as an Active Storage service. https://www.dropbox.com'
+  spec.summary       = '[Official] Rails ActiveStorage adapter for Dropbox. Wraps the Dropbox Storage as an Active Storage service.'
+  spec.description   = 'Wraps the Dropbox Storage as an Active Storage service. Active Storage Dropbox Official Gem (activestorage dropbox support) - https://www.dropbox.com'
   spec.homepage      = "https://github.com/ashishprajapati/activestorage_dropbox"
   spec.license       = "MIT"
 
@@ -26,6 +26,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "coveralls", "~> 0.8.22"  
+  spec.add_development_dependency "rails", ">= 5.2"
 
-  spec.add_dependency 'rails', '~> 5.2'
+  spec.add_dependency "dropbox_api", "~> 0.1.16"  
 end
