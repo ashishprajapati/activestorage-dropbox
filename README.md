@@ -34,7 +34,7 @@ dropbox:
   access_token: ""
 ```
 
-To use the Dropbox service in development, you add the following to config/environments/production.rb:
+To use the Dropbox service in development, you add the following to config/environments/development.rb:
 
 ```
 config.active_storage.service = :dropbox
