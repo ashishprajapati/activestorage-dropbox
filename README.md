@@ -1,4 +1,5 @@
-# Activestorage::Service::DropboxService - Official Gem
+# Dropbox Support for Active Storage - Official Gem
+### Activestorage::Service::DropboxService
 
 Rails ActiveStorage adapter for Dropbox. Wraps the [Dropbox](https://www.dropbox.com/) Storage Service as an Active Storage service. 
 
