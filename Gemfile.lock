@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    activestorage_dropbox (0.1.1)
+    activestorage-dropbox (0.1.1)
       dropbox_api (~> 0.1.16)
 
 GEM
@@ -164,7 +164,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activestorage_dropbox!
+  activestorage-dropbox!
   bundler (~> 2.0)
   coveralls (~> 0.8.22)
   rails (>= 5.2)

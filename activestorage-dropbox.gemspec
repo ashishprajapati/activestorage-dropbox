@@ -3,14 +3,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'active_storage/service/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "activestorage_dropbox"
+  spec.name          = "activestorage-dropbox"
   spec.version       = ActiveStorage::DropboxService::VERSION
   spec.authors       = ["Ashish Prajapati"]
   spec.email         = ["mail@ashishprajapati.com"]
 
   spec.summary       = '[Official] Rails ActiveStorage adapter for Dropbox. Wraps the Dropbox Storage as an Active Storage service. Active Storage Dropbox Official Gem (activestorage dropbox support) - https://www.dropbox.com'
   spec.description   = '[Official] Rails ActiveStorage adapter for Dropbox. Wraps the Dropbox Storage as an Active Storage service. Active Storage Dropbox Official Gem (activestorage dropbox support) - https://www.dropbox.com'
-  spec.homepage      = "https://github.com/ashishprajapati/activestorage_dropbox"
+  spec.homepage      = "https://github.com/ashishprajapati/activestorage-dropbox"
   spec.license       = "MIT"
 
   # Specify which files should be added to the gem when it is released.

@@ -3,10 +3,10 @@
 
 Rails ActiveStorage adapter for Dropbox. Wraps the [Dropbox](https://www.dropbox.com/) Storage Service as an Active Storage service. 
 
-[![Version](https://img.shields.io/gem/v/activestorage_dropbox.svg?style=flat-square)](https://rubygems.org/gems/activestorage_dropbox)
-[![Build Status](https://travis-ci.org/ashishprajapati/activestorage_dropbox.svg?branch=master)](https://travis-ci.org/ashishprajapati/activestorage_dropbox)
-[![Maintainability](https://api.codeclimate.com/v1/badges/629942b6297330c3f52f/maintainability)](https://codeclimate.com/github/ashishprajapati/activestorage_dropbox/maintainability)
-[![Gem Version](https://badge.fury.io/rb/activestorage_dropbox.svg)](https://badge.fury.io/rb/activestorage_dropbox)
+[![Version](https://img.shields.io/gem/v/activestorage-dropbox.svg?style=flat-square)](https://rubygems.org/gems/activestorage-dropbox)
+[![Build Status](https://travis-ci.org/ashishprajapati/activestorage-dropbox.svg?branch=master)](https://travis-ci.org/ashishprajapati/activestorage-dropbox)
+[![Maintainability](https://api.codeclimate.com/v1/badges/629942b6297330c3f52f/maintainability)](https://codeclimate.com/github/ashishprajapati/activestorage-dropbox/maintainability)
+[![Gem Version](https://badge.fury.io/rb/activestorage-dropbox.svg)](https://badge.fury.io/rb/activestorage-dropbox)
 
 Reference: https://groups.google.com/forum/?fromgroups#!topic/rubyonrails-core/rOj4y3hx0Gc
 
@@ -15,7 +15,7 @@ Reference: https://groups.google.com/forum/?fromgroups#!topic/rubyonrails-core/r
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'activestorage_dropbox'
+gem 'activestorage-dropbox'
 ```
 
 And then execute:
@@ -24,7 +24,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install activestorage_dropbox
+    $ gem install activestorage-dropbox
 
 ## Usage
 Declare an Dropbox service in config/storage.yml
@@ -57,7 +57,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/activestorage_dropbox. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/activestorage-dropbox. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -65,4 +65,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the ActivestorageDropbox project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/activestorage_dropbox/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the ActivestorageDropbox project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/activestorage-dropbox/blob/master/CODE_OF_CONDUCT.md).
