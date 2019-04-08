@@ -1,5 +1,5 @@
 module ActiveStorage
   module DropboxService
-    VERSION = '0.1.2'.freeze
+    VERSION = '1.0.0'.freeze
   end
 end
