@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    activestorage-dropbox (0.1.2)
+    activestorage-dropbox (1.0.0)
       dropbox_api (~> 0.1.16)
 
 GEM
