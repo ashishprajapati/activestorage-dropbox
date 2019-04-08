@@ -6,7 +6,7 @@ Wraps the [Dropbox](https://www.dropbox.com/) Storage Service as an Active Stora
 [![Version](https://img.shields.io/gem/v/activestorage-dropbox.svg?style=flat-square)](https://rubygems.org/gems/activestorage-dropbox)
 [![Build Status](https://travis-ci.org/ashishprajapati/activestorage-dropbox.svg?branch=master)](https://travis-ci.org/ashishprajapati/activestorage-dropbox)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a30b9d7043ffbcc4a080/maintainability)](https://codeclimate.com/github/ashishprajapati/activestorage-dropbox/maintainability)
-[![Gem Version](https://badge.fury.io/rb/activestorage-dropbox.svg)](https://badge.fury.io/rb/activestorage-dropbox)
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 Reference: https://groups.google.com/forum/?fromgroups#!topic/rubyonrails-core/rOj4y3hx0Gc
 
