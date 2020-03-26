@@ -8,7 +8,7 @@ Wraps the [Dropbox](https://www.dropbox.com/) Storage Service as an Active Stora
 [![Maintainability](https://api.codeclimate.com/v1/badges/a30b9d7043ffbcc4a080/maintainability)](https://codeclimate.com/github/ashishprajapati/activestorage-dropbox/maintainability)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
-Reference: https://groups.google.com/forum/?fromgroups#!topic/rubyonrails-core/rOj4y3hx0Gc
+Reference: https://discuss.rubyonrails.org/t/activestorage-feature-proposal-adding-support-of-dropbox/73532
 
 ## Installation
 
