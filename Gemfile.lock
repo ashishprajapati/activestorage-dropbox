@@ -154,7 +154,7 @@ GEM
     thor (0.19.4)
     thread_safe (0.3.6)
     tins (1.20.2)
-    tzinfo (1.2.7)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     websocket-driver (0.7.0)
       websocket-extensions (>= 0.1.0)
