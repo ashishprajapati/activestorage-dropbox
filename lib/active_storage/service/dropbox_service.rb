@@ -10,7 +10,7 @@ module ActiveStorage
       @config = config
     end
 
-    def upload(key, io, checksum: nil, content_type: nil, disposition: nil, filename: nil)
+    def upload(key, io, checksum: nil, filename: nil, content_type: nil, disposition: nil, custom_metadata: {})
       instrument :upload, key: key, checksum: checksum do
         client.upload_by_chunks "/"+key, io
       rescue DropboxApi::Errors::UploadError
@@ -24,7 +24,7 @@ module ActiveStorage
           stream(key, &block)
         end
       else
-        instrument :download, key: key do 
+        instrument :download, key: key do
           download_for(key)
         rescue DropboxApi::Errors::NotFoundError
           raise ActiveStorage::FileNotFoundError
@@ -62,7 +62,7 @@ module ActiveStorage
 
     def url(key, expires_in:, filename:, disposition:, content_type:)
       instrument :url, key: key do |payload|
-        generated_url = file_for(key).link 
+        generated_url = file_for(key).link
         payload[:url] = generated_url
         generated_url
       end
