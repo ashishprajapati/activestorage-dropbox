@@ -99,7 +99,7 @@ GEM
       multi_xml (~> 0.5)
       rack (>= 1.2, < 4)
     racc (1.6.0)
-    rack (2.2.3)
+    rack (2.2.7)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails (5.2.3)
